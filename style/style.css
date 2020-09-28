@@ -1,0 +1,85 @@
+body {
+    font-family: Raleway, arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    background: hsla(0, 0%, 95%, 0.623);
+}
+
+.nav-left {
+
+    padding: 10px;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+}
+
+.nav-right li {
+    list-style: none;
+    padding: 10px;
+}
+
+.nav-right li a {
+    text-decoration: none;
+}
+
+
+
+header {
+    font-display: flex;
+    
+    flex-direction: column;
+    height: 100vh;
+    background-image: url("../img/espacio.jpg");
+    background-size: cover;
+
+}
+.content-header{
+    justify-content: center;
+}
+
+.background-header {
+    height: 100vh;
+    background-image: url("../img/espacio.jpg");
+    background-size: cover;
+}
+
+.subtitleH2-nombrePagina {
+    font-size: 70px;
+    align-items: center;
+    color: azure;
+    text-align: center;
+
+}
+
+.subtitleH2-profesion{
+    font-size: 30px;
+    align-items: center;
+    color: azure;
+    text-align: center;
+}
+
+span{
+    color: #df8611
+}
+
+main{
+    padding:20px;
+}
+.acerca-de-mi {
+    display: flex;
+    flex-direction: row;
+
+}
+.foto{
+    border-radius:180px;
+}
+.text {
+    margin: 20px;
+}
