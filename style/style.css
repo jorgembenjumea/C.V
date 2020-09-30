@@ -11,7 +11,6 @@ body {
 }
 
 .nav-left {
-
     padding: 10px;
 }
 
@@ -29,8 +28,6 @@ body {
     text-decoration: none;
 }
 
-
-
 header {
     font-display: flex;
     
@@ -42,6 +39,7 @@ header {
 }
 .content-header{
     justify-content: center;
+    margin-top: 30px;
 }
 
 .background-header {
@@ -70,16 +68,118 @@ span{
 }
 
 main{
-    padding:20px;
+
+    
 }
-.acerca-de-mi {
+.background-about-my{
+    background-image: url("../img/yoSoy.jpg");
+    background-size: cover;
     display: flex;
-    flex-direction: row;
+    justify-content:center;
+    height: 400px;
+    flex-direction: column;
+    
 
 }
+.contentDos{
+    display: flex;
+    width:90%;
+    justify-content: center;
+    margin-top: 20px;
+    align-items: center;
+
+}
+h2{
+    margin: 0;
+    padding:0;
+    align-items: center;
+}
+
+.content-about-my{
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.acerca-de-mi {
+    display: flex;
+    width:100%;
+    flex-direction: row;
+    justify-content:space-between;
+
+
+}
+.img{
+    width: 30%;
+}
+
 .foto{
     border-radius:180px;
+    width: 100%;
 }
 .text {
     margin: 20px;
+    
+    font-size: 25px;
+    text-align: justify;
+}
+
+.interesting-data{
+    background: #ebe5e5;
+    display: flex;
+    flex-direction:column;
+}
+
+.data{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+}
+
+.cuadroImg{
+    max-width: 600px;
+    background-color:rgba(234, 242, 248,0.6);
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+    margin-left: 80px;
+    margin-top: 100px;
+    border: 2px solid;
+    border-radius: 8px;
+    padding: 15px 20px;
+
+}
+.imgPortada{
+    max-width: 20%;
+    margin-right: 30px;
+
+}
+.fotoPortada{
+    
+    width: 100%;
+    border-radius: 50%;
+
+}
+
+.inge{
+font-size:30px;
+}
+.subtitle{
+    text-align:center;
+    margin-bottom: 40px;
+    margin-top: 30px;
+    
+}
+
+.content-data{
+    margin-top: 20px;
+    width:90%;
+
+
+}
+
+li{
+    list-style: none;
 }
