@@ -462,7 +462,7 @@ h3 {
     .cuadroImg {
         max-width: 300px;
         margin-left: 10px;
-        margin-top: 50px;
+        margin-top: 26px;
         border: 2px solid;
         border-radius: 8px;
         padding: 15px 20px;
@@ -471,6 +471,15 @@ h3 {
     header {
         height: 60vh;
     }
+
+    .subtitleH2-profesion {
+        font-size: 14px;
+    }
+
+    .subtitleH2-nombrePagina {
+        font-size: 40px;
+    }
+}
 
     @media screen and (max-width: 500px) {
 
@@ -507,7 +516,7 @@ h3 {
         header {
             font-display: flex;
             flex-direction: column;
-            height: 50vh;
+            height: 55vh;
             background-image: url("../img/espacio.jpg");
             background-size: cover;
 
@@ -518,9 +527,17 @@ h3 {
 
         }
 
+        .listMeEncanta {
+            flex-wrap: wrap;
+        }
     }
 
     @media screen and (max-width: 321px) {
+
+        header {
+            height: 57vh;
+;
+        }
 
         .nav{
             display: flex;
@@ -542,16 +559,14 @@ h3 {
            
             justify-content:space-between;
             width: 200px;
-
-
         }
-
         .skills-container {
-           
             height: 790px;
             
         }
-
+        .inge {
+            font-size: 15px;
+        }
 
 
 
