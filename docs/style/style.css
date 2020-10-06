@@ -2,6 +2,7 @@ body {
     font-family: Raleway, arial, sans-serif;
     margin: 0;
     padding: 0;
+    max-width: 1400px;
 }
 p{
     margin: 0;
@@ -74,12 +75,12 @@ main{
     
 }
 .background-about-my{
-    /* background-image: url("../img/yoSoy.jpg"); */
     background-size: cover;
     display: flex;
     justify-content:center;
-    height: 690px;
+    height: 95%;
     flex-direction: column;
+    margin-bottom: 15px;
     
 
 }
@@ -278,10 +279,8 @@ h3{
     justify-content: center;
     
 }
-
-
 .social-net{
-    max-width: 800px;
+    max-width: 80%;
     
 }
 .social-contact{
@@ -333,6 +332,10 @@ h3{
     font-family: "Prompt", cursive;
 }
 .skill-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-self: center;
     font-family: inherit;
     font-size: 18px;
     line-height: 1.8;
@@ -345,6 +348,8 @@ h3{
     text-align: center;
     color: white;
 }
+
+
 .skill span{
     border-bottom: 4px solid #20b2aa;
     padding-bottom: 5px;
@@ -355,9 +360,9 @@ h3{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    align-items: center;
     padding: 10px 0;
     font-family: "Raleway", sans-serif;
-    align-items: center;
     margin-left: 70px;
     width: 450px;
 }
@@ -374,4 +379,57 @@ h3{
 .love-images{
     width: 50px;
     height: 50px;
+}
+
+
+@media screen and (max-width:600px){
+    .skills-container{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .skills-container content{
+
+        width: 100%;
+    }
+
+    .skills{
+
+        width: 100%;
+    }
+
+    .skill{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
+        display: flex;
+        width: 80%;
+        margin-bottom: 30px;
+       
+    }
+    .tech-container{
+      
+        padding: 0px 0;
+
+        margin-left: 0px;
+        width: 450px;
+    }
+
+
+    .cuadroImg{
+        max-width: 300px;
+ 
+
+        margin-left: 10px;
+        margin-top: 50px;
+        border: 2px solid;
+        border-radius: 8px;
+        padding: 15px 20px;
+        
+    
+    }
+
 }
