@@ -135,7 +135,7 @@ h2 {
 }
 
 .interesting-data {
-    background: #ffb703;
+    background: #219ebc;;
     display: flex;
     flex-direction: column;
 }
@@ -404,7 +404,12 @@ h3 {
     width: 50px;
     height: 50px;
 }
-
+/* 
+800
+600
+500
+321
+ */
 
 @media screen and (max-width:800px) {
 
@@ -416,10 +421,8 @@ h3 {
         margin-top:10px;
     }
 
-
-
-
 }
+
 
 
 
@@ -535,6 +538,46 @@ h3 {
             font-size: 20px;
         }
     }
+
+    @media screen and (max-width:360px) {
+
+        header {
+            height: 57vh;
+;
+        }
+
+        .nav{
+            display: flex;
+            flex-direction: column;
+
+        }
+        .text{
+            font-size: 14px;
+        }
+
+
+        .social-contact {
+            line-height: 1.5;
+            text-align: center;
+            font-size: 16px;
+        }
+
+        .tech-container {
+           
+            justify-content:space-between;
+            width: 200px;
+        }
+        .skills-container {
+            height: 790px;
+            
+        }
+        .inge {
+            font-size: 15px;
+        }
+    
+    }
+
+
 
     @media screen and (max-width: 321px) {
 
