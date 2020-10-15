@@ -539,7 +539,7 @@ h3 {
         }
     }
 
-    @media screen and (max-width:360px) {
+    @media screen and (max-width:400px) {
 
         header {
             height: 57vh;
@@ -554,7 +554,6 @@ h3 {
         .text{
             font-size: 14px;
         }
-
 
         .social-contact {
             line-height: 1.5;
