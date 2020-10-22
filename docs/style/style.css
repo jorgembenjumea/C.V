@@ -10,7 +10,7 @@ p {
 }
 
 .nav {
-    display: flex;
+    display: inline-flex;
     justify-content: space-between;
     background: hsla(0, 0%, 95%, 0.623);
 }
@@ -82,7 +82,7 @@ span {
     justify-content: center;
     height: 95%;
     flex-direction: column;
-    margin-bottom: 15px;
+    
 
 
 }
@@ -196,6 +196,9 @@ h2 {
     margin-top: 20px;
     width: 90%;
 }
+main{
+    background: #f2f2f2;
+}
 
 li {
     list-style: none;
@@ -224,7 +227,12 @@ li {
 .cont-list-Fort{
     display: flex;
     flex-direction: column;
+    margin: .5rem;
     align-items: center;
+    background: white;
+    border-radius: 5%;
+    
+    
 }
 
 .contentFortalezas {
@@ -238,12 +246,13 @@ li {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    flex: auto;
 }
 
 .text-fortalezas {
     text-align: center;
     width: 180px;
-    margin-top: 15px;
+    margin: 10px;
 }
 
 .meEncanta {
@@ -275,6 +284,7 @@ li {
     justify-content: space-between;
     align-content: center;
     align-items: center;
+    padding: 2rem;
 }
 
 h3 {
@@ -420,9 +430,14 @@ h3 {
     .tech-container{
         margin-top:10px;
     }
+    .listFortalezas {
+        flex-wrap: wrap;
+
+    }
+
+    
 
 }
-
 
 
 
@@ -482,6 +497,11 @@ h3 {
     .subtitleH2-nombrePagina {
         font-size: 40px;
     }
+
+    .listFortalezas {
+        flex-direction: column;
+
+    }
 }
 
     @media screen and (max-width: 500px) {
@@ -492,12 +512,13 @@ h3 {
             justify-content: center;
             align-items: center;
         }
-
+      
         .cont-list-Fort {
             display: flex;
             width: 100%;
             align-items: center;
             flex-direction: column;
+            
         }
 
         .text-fortalezas {
